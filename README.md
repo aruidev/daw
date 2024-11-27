@@ -12,7 +12,7 @@ Markup Languages: HTML, CSS, XML, JSON and other technologies for web design and
 ### 🌟 Repository Structure
 The repository is organized into folders, one for each subject. Each folder includes:
 - Exercises completed in class.
-- Practical projects with detailed explanations.
+- Practical projects.
 - Guides and notes to support understanding.
 
 ### 🌍 Languages
