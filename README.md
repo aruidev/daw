@@ -1,5 +1,5 @@
 # Web Development Projects Repository
-Welcome to the Web Development Projects Repository, here you'll find exercises, projects, guides, and practical work completed as part of my studies in the Higher Technician in Web Development program (Desarrollo de Aplicaciones Web, DAW).
+Welcome to the Web Development Projects Repository, here you'll find exercises, projects, guides, and practical work completed as part of my studies in the Higher Technician in Web Development program (Grado Superior en Desarrollo de Aplicaciones Web, DAW).
 
 ### 📚 Subjects Covered
 This repository contains work from various subjects included in the program, such as:
