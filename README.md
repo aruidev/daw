@@ -4,10 +4,10 @@ Welcome to the Web Development Projects Repository, here you'll find exercises, 
 ### 📚 Subjects Covered
 This repository contains work from various subjects included in the program, such as:
 
-Databases: SQL queries, database design and management.
-Programming: Algorithms, problem-solving, and software development in different languages, mainly JavaScript and Java.
-Systems: Configuration and management of operating systems, virtualized systems and servers.
-Markup Languages: HTML, CSS, XML, JSON and other technologies for web design and data structuring.
+- **Databases**: SQL queries, database design and management.
+- **Programming**: Algorithms, problem-solving, and software development in different languages, mainly JavaScript and Java.
+- **Systems**: Configuration and management of operating systems, virtualized systems and servers.
+- **Markup Languages**: HTML, CSS, XML, JSON and other technologies for web design and data structuring.
 
 ### 🌟 Repository Structure
 The repository is organized into folders, one for each subject. Each folder includes:
