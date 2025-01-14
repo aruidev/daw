@@ -2,28 +2,28 @@
 This directory contains projects and exercises focused on programming fundamentals and advanced concepts.
 
 
-#### Programming logic and algorithms
+#### - Programming logic and algorithms
 
 
-#### JavaScript programming
+#### - JavaScript programming
 
-- ES6+ features
-- Asynchronous programming
-- Object-oriented concepts
-
-
-#### Java development
-
-- Core Java concepts
-- Object-oriented programming
-- Database connectivity
+    - ES6+ features
+    - Asynchronous programming
+    - Object-oriented concepts
 
 
-#### Database integration
+#### - Java development
 
-- JDBC
-- Connection pooling
-- Data access patterns
+    - Core Java concepts
+    - Object-oriented programming
+    - Database connectivity
+
+
+#### - Database integration
+
+    - JDBC
+    - Connection pooling
+    - Data access patterns
 
 
 #### Skills Developed
