@@ -3,46 +3,40 @@ This directory contains web development projects and exercises focusing on vario
 
 
 #### HTML5
-
-- Semantic markup
-- Forms and validation
-- Multimedia elements
+  - Semantic markup
+  - Forms and validation
+  - Multimedia elements
 
 
 #### CSS3
-
-- Layouts and positioning
-- Responsive design
-- Animations and transitions
-- Flexbox and Grid
+  - Layouts and positioning
+  - Responsive design
+  - Animations and transitions
+  - Flexbox and Grid
 
 
 #### JavaScript
-
-- DOM manipulation
-- Event handling
-- Modern JS features
+  - DOM manipulation
+  - Event handling
+  - Modern JS features
 
 
 #### Data Formats
-
-- JSON
-- XML
-- YAML
+  - JSON
+  - XML
+  - YAML
 
 
 #### Web APIs
-
-- RESTful services
-- Data fetching
-- AJAX
+  - RESTful services
+  - Data fetching
+  - AJAX
 
 
 #### Skills Developed
-
-- Modern web development
-- Responsive design
-- Cross-browser compatibility
-- Web accessibility
-- Client-side programming
-- Data format handling
+  - Modern web development
+  - Responsive design
+  - Cross-browser compatibility
+  - Web accessibility
+  - Client-side programming
+  - Data format handling
