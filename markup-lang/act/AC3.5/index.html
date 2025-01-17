@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <h1>Escriu la teva carta</h1>
+
+    <div class="contenidor">
+		
+        <!-- Formulari -->
+        <div class="formulari">
+            <form id="formulariCarta" onsubmit="validarFormulari(event)">
+                <label for="nomDestinatari">Nom del destinatari:</label><br>
+                <input type="text" id="nomDestinatari" name="nomDestinatari"><br><br>
+
+                <label for="nomRemitent">Nom del remitent:</label><br>
+                <input type="text" id="nomRemitent" name="nomRemitent"><br><br>
+
+                <label for="assumpte">Assumpte:</label><br>
+                <input type="text" id="assumpte" name="assumpte"><br><br>
+
+                <label for="contingut">Contingut de la carta:</label><br>
+                <textarea id="contingut" name="contingut" rows="10" cols="50"></textarea><br><br>
+
+                <button type="submit" id="enviar">Enviar</button>
+                <button type="reset" id="esborrar">Esborrar</button>
+            </form>
+        </div>
+
+        <!-- Carta -->
+        <div id="carta" class="carta">
+            <div class="carta-contenidor">
+                <div id="destinatariCarta" class="destinatari"></div>
+                <h2 id="assumpteCarta" class="assumpte"></h2>
+                <p id="contingutCarta" class="contingut"></p>
+                <div id="remitentCarta" class="remitent"></div>
+            </div>
+
+            <div id="botonsCarta" class="botonsCarta">
+                <button id="enviarCarta" onclick="enviarCarta()">Enviar Carta</button>
+                <button id="eliminarCarta" onclick="eliminarCarta()">Eliminar Carta</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

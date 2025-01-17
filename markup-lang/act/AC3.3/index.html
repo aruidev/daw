@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC3.3 Ruiz Alex</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inici</a></li>
+            <li><a href="operadors.html">Operadors</a></li>
+            <li><a href="condicionals.html">Condicionals</a></li>
+            <li><a href="bucles.html">Bucles</a></li>
+            <li><a href="arrays.html">Arrays</a></li>
+            <li><a href="funcions.html">Funcions</a></li>
+            <li><a href="llistes.html">Llistes</a></li>
+        </ul>
+        <a href="https://arucadev.github.io/" id="me">@arucadev</a>
+    </nav>
+    <header>
+        <h1>Introducció a Llenguatge de Marques</h1>
+        <div>
+            <img src="img/slide.png" alt="Slide-JS">
+        </div>
+    </header>
+    <nav class="buttons-container">
+        <ul>
+            <li><button id="html-button">HTML</button></li>
+            <li><button id="css-button">CSS</button></li>
+            <li><button id="js-button">JavaScript</button></li>
+        </ul>
+    </nav>
+    <main id="main-index">
+        <section id="html-container">
+            <h2>Què és HTML?</h2>
+            <p>HTML (HyperText Markup Language) és el llenguatge estàndard per estructurar i dissenyar pàgines web. Utilitza etiquetes per definir el contingut i no inclou lògica, sinó que descriu la semàntica i la disposició del contingut.</p>
+
+            <h3>Principals característiques</h3>
+            <dl>
+                <dt>Llenguatge de Marques</dt>
+                <dd>Utilitza etiquetes per estructurar diferents tipus de contingut, com paràgrafs, encapçalaments i taules.</dd>
+                
+                <dt>Estructura jeràrquica</dt>
+                <dd>Organitza els elements en una estructura d'arbre (DOM), amb relacions entre pares i fills.</dd>
+                
+                <dt>Semàntica</dt>
+                <dd>Inclou etiquetes com <code>&lt;header&gt;</code>, <code>&lt;section&gt;</code> i <code>&lt;footer&gt;</code> per descriure millor el contingut.</dd>
+                
+                <dt>Independència de Plataforma</dt>
+                <dd>Funciona en qualsevol navegador modern, independentment del sistema operatiu.</dd>
+                
+                <dt>Integració amb Altres Llenguatges</dt>
+                <dd>Es combina amb CSS per donar estil i amb JavaScript per afegir interactivitat.</dd>
+                
+                <dt>Multimèdia</dt>
+                <dd>Permet integrar àudio, vídeo i imatges mitjançant etiquetes com <code>&lt;audio&gt;</code> i <code>&lt;video&gt;</code>.</dd>
+                
+                <dt>Hipertext</dt>
+                <dd>Facilita la navegació entre pàgines mitjançant enllaços (<code>&lt;a&gt;</code>).</dd>
+                
+                <dt>Fàcil d'Aprendre</dt>
+                <dd>La seva sintaxi senzilla el fa accessible per a principiants.</dd>
+                
+                <dt>Extensible</dt>
+                <dd>Compatible amb APIs modernes com geolocalització o emmagatzematge local.</dd>
+                
+                <dt>Estàndard en Evolució</dt>
+                <dd>Regularment actualitzat pel W3C i WHATWG. L'última versió és HTML5.</dd>
+            </dl>
+        </section>
+
+        <section id="css-container">
+                <h2>Què és CSS?</h2>
+            <p>CSS (Cascading Style Sheets) és un llenguatge utilitzat per donar estil i format a les pàgines web. Treballa conjuntament amb HTML per controlar l'aparença visual del contingut, com colors, tipografies i disseny.</p>
+
+            <h3>Principals característiques</h3>
+            <dl>
+                <dt>Separació de Contingut i Disseny</dt>
+                <dd>Permet mantenir el contingut (HTML) separat del disseny (CSS), facilitant el manteniment del codi.</dd>
+                
+                <dt>Fulls d'Estil en Cascada</dt>
+                <dd>Les regles s'apliquen segons la jerarquia i l'especificitat, combinant estils de diferents fonts.</dd>
+                
+                <dt>Estilització de Tipografies</dt>
+                <dd>Permet personalitzar fonts, mides, colors i espaiats del text.</dd>
+                
+                <dt>Disseny de Layouts</dt>
+                <dd>Ofereix eines com <code>flexbox</code> i <code>grid</code> per estructurar el contingut de manera eficient.</dd>
+                
+                <dt>Responsivitat</dt>
+                <dd>Facilita l'adaptació de les pàgines a diferents dispositius mitjançant les media queries.</dd>
+                
+                <dt>Compatibilitat amb Navegadors</dt>
+                <dd>Funciona en tots els navegadors moderns, amb algunes variacions en versions antigues.</dd>
+                
+                <dt>Personalització Visual</dt>
+                <dd>Controla colors, marges, vores, fons i altres aspectes visuals de la pàgina.</dd>
+                
+                <dt>Animacions i Transicions</dt>
+                <dd>Permet crear efectes visuals amb transicions, transformacions i animacions.</dd>
+                
+                <dt>Modularitat</dt>
+                <dd>Permet reutilitzar estils mitjançant classes i fulls d'estil externs.</dd>
+                
+                <dt>Interacció amb HTML i JavaScript</dt>
+                <dd>Treballa conjuntament amb HTML per estructurar el contingut i amb JavaScript per afegir interactivitat.</dd>
+            </dl>
+        </section>
+
+        <section id="js-container">
+            <h2>Què és JavaScript?</h2>
+            <p>JavaScript és un llenguatge de programació d'alt nivell, interpretat i dinàmic, disenyat per afegir interactivitat a les pàgines web. És el llenguatge més utilitzat a l'entorn web per la part Front-End, i cada cop més utilitzat també al Back-End amb eines com Node-js.</p>
+            <h3>Principals característiques</h3>
+            <dl>
+                <dt>Llenguatge interpretat</dt>
+                    <dd>No necessita ser compilat, els navegadors web tenen motors que interpreten i executen el codi directament.</dd>
+                <dt>Multiplataforma</dt>
+                    <dd>És compatible amb la majoria dels navegadors sino tots.</dd>
+                <dt>Llenguatge dinàmic</dt>
+                    <dd>No s'especifica explícitament el tipus de les variables, sino que es determina en temps d'execució.</dd>
+                <dt>Basat en prototips</dt>
+                    <dd>No utilitza classes tradicionals, sino prototips per l'herencia i la creció d'objectes.</dd>
+                <dt>Orientat a events</dt>
+                    <dd>Permet respondre a interaccions de l'usuari mitjançant "event listeners".</dd>
+                <dt>Llenguatge asíncrone</dt>
+                    <dd>Soporta programació asíncrone a través de callbacks, promeses i "async/await".</dd>
+                <dt>Multiparadigma</dt>
+                    <dd>Soporta diferents estil de programació, com programació funcional, programació orientada a objectes o programació imperativa.</dd>
+                <dt>Manipulació del DOM</dt>
+                    <dd>Permet interactuar amb el DOM per modificar contingut, disseny o comportament de la web en temps real</dd>
+            </dl>
+        </section>
+    </main>
+</body>
+</html>

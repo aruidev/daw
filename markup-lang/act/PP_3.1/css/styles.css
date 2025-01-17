@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contenidor {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+}
+
+.formulari {
+    flex: 1;
+    box-shadow: 2px 3px 5px lightgrey;
+    padding: 10px;
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;
+}
+
+.informacioMostra {
+    flex: 1;
+    box-shadow: 2px 3px 5px lightgrey;
+    padding: 10px;
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;
+    h2, p {
+        padding: 0 10px;
+    }
+}
+
+input, textarea {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    border: 1px solid lightgrey;;
+    padding: 4px;
+    margin: 4px;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    margin: 10px;
+    background-color: #6767ff;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    &:hover {
+        background-color: #6767ff9d;
+    }
+}
+button[type="reset"] {
+    padding: 10px;
+    margin: 10px;
+    background-color: #eb4343;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    &:hover {
+        background-color: #eb434398;
+    }
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 650px) {
+    .contenidor {
+        flex-direction: column;
+    }
+}
