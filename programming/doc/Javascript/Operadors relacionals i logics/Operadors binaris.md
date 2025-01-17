@@ -1,0 +1,1 @@
+També existeixen els operadors ^, |, &, >>, << i >>> per fer operacions binàries (bit a bit) amb números enters, però no s'acostumen a utilitzar excepte en casos especials.

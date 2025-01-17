@@ -1,0 +1,2 @@
+- `Math.floor()` trunca (redondea hacia abajo siempre)
+- `parseInt()` redondea al más cercano
