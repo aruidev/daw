@@ -12,7 +12,7 @@ Implemented using MVC (Model-View-Controller) pattern.
   - Source code with comments
 
 #### Installation Instructions
-  - Download the installer (`TQsetup.exe`) from the "[releases](https://github.com/arucadev/daw/releases/tag/v1.0.0-treasure-quest)" section of this repository.
+  - Download the installer (`TQ-setup.exe`) from the "[releases](https://github.com/arucadev/daw/releases/tag/v1.0.0-treasure-quest)" section of this repository.
   - Run the installer.
 
 #### Documentation 📖
