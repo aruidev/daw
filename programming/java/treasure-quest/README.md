@@ -14,6 +14,7 @@ Implemented using MVC (Model-View-Controller) pattern.
 #### Installation Instructions
   - Download the installer (`TQ-setup.exe`) from the "[releases](https://github.com/arucadev/daw/releases/tag/v1.0.0-treasure-quest)" section of this repository.
   - Run the installer.
+  - Enjoy the game!
 
 #### Documentation 📖
 Full Java documentation is available for the project, covering class and methods specifications.
