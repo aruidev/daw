@@ -14,6 +14,7 @@ This directory contains projects and exercises focused on programming fundamenta
 - #### Java development
   - Core Java concepts
   - Object-oriented programming
+  - CRUD operations
   - Database connectivity
 
 
