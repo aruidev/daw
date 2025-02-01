@@ -4,7 +4,7 @@ This repository contains all my coursework and projects for the Web Application 
 #### Repository Structure
   - **programming**: Core programming concepts, logic and algorithms, and database connectivity
   - **databases**: Database design, SQL, and NoSQL solutions
-  - **operating**-systems: System administration, virtualization, and infrastructure management
+  - **operating-systems**: System administration, virtualization, and infrastructure management
   - **markup-languages**: Web technologies and markup languages
 
 Feel free to explore each directory for detailed information about specific projects and assignments.
