@@ -1,6 +1,12 @@
 ### Database Design & Management
 This directory contains database-related projects, including design documentation and implementation.
 
+### 📂 Structure 
+- act/ (Activities) → Contains exercises and practical projects from the course.
+- doc/ (Documentation) → Includes notes, guides, and documentation related to projects and subjects.
+
+### Content:
+
 #### Database Design
   - EER (Enhanced Entity-Relationship) Diagrams
   - Conceptual Modeling
