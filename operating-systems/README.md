@@ -1,6 +1,12 @@
 ### Operating Systems & System Administration
 This directory contains projects and documentation related to system administration and infrastructure management.
 
+### 📂 Structure 
+- act/ (Activities) → Contains exercises and practical projects from the course.
+- doc/ (Documentation) → Includes notes, guides, and documentation related to projects and subjects.
+
+### Content:
+
 #### User and Group Administration
   - Access control
   - Permission management
