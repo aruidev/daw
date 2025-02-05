@@ -1,6 +1,11 @@
 ### Programming
 This directory contains projects and exercises focused on programming fundamentals and advanced concepts.
 
+### 📂 Structure 
+- act/ (Activities) → Contains exercises and practical projects from the course.
+- doc/ (Documentation) → Includes notes, guides, and documentation related to projects and subjects.
+
+### Content:
 
 - #### Programming logic and algorithms
 
