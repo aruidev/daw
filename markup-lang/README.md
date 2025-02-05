@@ -1,6 +1,11 @@
 ### Web Technologies & Markup Languages
 This directory contains web development projects and exercises focusing on various markup languages and web technologies.
 
+### 📂 Structure 
+- act/ (Activities) → Contains exercises and practical projects from the course.
+- doc/ (Documentation) → Includes notes, guides, and documentation related to projects and subjects.
+
+### Content:
 
 #### HTML5
   - Semantic markup
