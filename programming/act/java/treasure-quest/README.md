@@ -6,7 +6,7 @@ This project demonstrates the implementation of fundamental Java concepts throug
 Implemented using MVC (Model-View-Controller) pattern.
 
 #### Includes
-  - #### Windows executable (.exe): First release of **Treasure Quest** with the game fully functional and ready for installation
+  - #### [Windows executable (.exe)](https://github.com/arucadev/daw/releases/tag/v1.0.0-treasure-quest): First release of **Treasure Quest** with the game fully functional and ready for installation
   - Executable .jar artifact
   - Complete Java documentation
   - Source code with comments
