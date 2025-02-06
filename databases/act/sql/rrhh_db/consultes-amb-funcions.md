@@ -1,3 +1,5 @@
+### Consultes sobre una taula amb funcions
+
 1. Llista totes les columnes de la taula empleats.
 ```mysql
 SELECT * 
