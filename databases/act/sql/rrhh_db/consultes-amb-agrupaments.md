@@ -1,4 +1,4 @@
-Consultes sobre una taula utilitzant agrupaments
+### Consultes sobre una taula utilitzant agrupaments
 
 1. Quants empleats van ser contractats l'any passat.
 ```mysql
@@ -108,7 +108,7 @@ GROUP BY id_cap;
 SELECT 
 	id_cap,
 	MIN(salari) AS min_salari
-	FROM empleats
+FROM empleats
 WHERE id_cap IS NOT NULL
 GROUP BY id_cap
 HAVING min_salari > 6000;
@@ -124,3 +124,21 @@ GROUP BY YEAR(data_contractacio)
 ORDER BY any_contractacio;
 ```         
 
+16. Mostra els codis de departament que tenen 3 o més empleats. Mostra només el codi del departament.
+```mysql
+SELECT 
+	departament_id,
+	COUNT(empleat_id) AS num_empleats
+FROM empleats
+WHERE departament_id IS NOT NULL
+GROUP BY departament_id 
+HAVING num_empleats >= 3;
+```         
+
+17. Mostra el nombre d'empleats que cobren més de 9.000 euros.
+```mysql
+SELECT
+	COUNT(empleat_id) AS num_empleats
+FROM empleats
+WHERE salari > 9000
+```         
