@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple Focus i Validació</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Formulari</h1>
+        <form id="formulari" onload="document.getElementById('nom').focus(); document.getElementById('nom').select();">
+            <label for="nom">Nom*</label>
+            <input type="text" id="nom" name="nom" placeholder="Text aquí">
+            <br>
+            <label for="cognom1">Primer cognom*</label>
+            <input type="text" id="cognom1" name="cognom1" placeholder="Text aquí">
+            <br>
+            <label for="cognom2">Segon cognom</label>
+            <input type="text" id="cognom2" name="cognom2" placeholder="Text aquí">
+            <br>
+            <label for="sexe">Sexe*</label>
+            <radio-group>
+                <label for="home">Home</label>
+                <input type="radio" id="home" name="sexe" value="home">
+                <label for="dona">Dona</label>
+                <input type="radio" id="dona" name="sexe" value="dona">
+                <label for="no-especificat">Prefereixo no dir-ho</label>
+                <input type="radio" id="no-especificat" name="sexe" value="no-especificat" checked>
+            </radio-group>
+            <br>
+            <label for="data-naixement">Data de naixement*</label>
+            <input type="date" id="data-naixement" name="data-naixement" placeholder="Data aquí">
+            <br>
+            <label for="nif">NIF*</label>
+            <input type="text" id="nif" name="nif" placeholder="Text aquí">
+            <label for="adreça">Adreça</label>
+            <input type="text" id="adreça" name="adreça" placeholder="Text aquí">
+            <br>
+            <label for="poblacio">Població</label>
+            <input type="text" id="poblacio" name="poblacio" placeholder="Text aquí">
+            <br>
+            <label for="codi-postal">Codi postal</label>
+            <input type="text" id="codi-postal" name="codi-postal" placeholder="Text aquí">
+            <br>
+            <label for="email">Email*</label>
+            <input type="text" id="email" name="email" placeholder="Text aquí">
+            <br>
+            <label for="telefon">Telèfon</label>
+            <input type="text" id="telefon" name="telefon" placeholder="Text aquí">
+            <br>
+            <label for="contrasenya">Contrasenya*</label>
+            <input type="password" id="contrasenya" name="contrasenya" placeholder="Text aquí">
+            <br>
+            <label for="check-contrasenya">Repeteix la contrasenya*</label>
+            <input type="password" id="check-contrasenya" name="check-contrasenya" placeholder="Text aquí">
+            <br>
+            <div class="buttons">
+                <button type="reset" id="reset">Esborrar</button>
+                <button type="submit" id="submit">Enviar</button>
+            </div>
+            
+        </form>
+    </main>
+</body>
+</html>
