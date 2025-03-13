@@ -91,7 +91,7 @@ New-ADUser -Name user5 `
 		-SamAccountName user5 `
 		-UserPrincipalName user5@ccandelaresi.cat `
 		-AccountPassword (ConvertTo-SecureString “P@ssw0rd” -AsPlainText -Force) `
-	-Enabled $true
+		-Enabled $true
 ```
 
 Crear usuari amb nom de pila i inicials
