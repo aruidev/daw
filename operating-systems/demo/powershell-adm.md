@@ -140,5 +140,5 @@ New-ADUser -Name user12 `
     -Path "OU=prova2,OU=prova1,DC=rpla,DC=cat" `
     -ChangePasswordAtLogon $true
     -EmailAddress enzo@socelmillor.com
-    -LogonWorkstations "t1,t2,t3" // 
+    -LogonWorkstations "t1,t2,t3" #llistar els equips separats amb comes i dins d'un mateix String. 
 ```
