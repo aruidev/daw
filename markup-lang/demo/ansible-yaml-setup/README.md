@@ -4,11 +4,12 @@
 
 - Un sistema Ubuntu (pot ser una màquina virtual o un servidor).
 - Connexió a Internet.
-- Accés a un compte amb permisos de root o <font color="#ffffff">sudo.</font>
+- Accés a un compte amb permisos de root o **sudo**.
 
 <font color="green">Instal·lem [Linux Mint 22.1](https://linuxmint.com/) (SO fork d'Ubuntu) a una màquina virtual, en configuració NAT per tenir accés a Internet.</font>
 
-## Tasques a realitzar
+
+## 🛠️ Tasques a realitzar
 
 1. Actualitza els paquets del sistema.
 ```bash
@@ -26,6 +27,7 @@ ansible --version
 ```
 
 ![Ansible Version](./img/Pasted%20image%2020250320205142.png)
+
 
 ### Configurar l'inventari d'Ansible (inventory.ini)
 
@@ -45,6 +47,7 @@ nano inventory.ini
 sudo passwd root
 ```
 
+
 ### Comprovar la connexió amb Ansible
 
 1. Executa ansible
@@ -54,7 +57,7 @@ ansible -i inventory.ini webservers -m ping
 
 ![Ansible Ping](./img/Pasted%20image%2020250320200635.png)
 
-4. Si apareixen errors, soluciona'ls seguint les instruccions.
+2. Si apareixen errors, soluciona'ls seguint les instruccions.
 
 ##### ⚠ Possible error: ssh: connect to host 127.0.0.1 port 22: Connection refused
 
@@ -143,6 +146,7 @@ sudo systemctl restart ssh
 </body>
 </html>
 ```
+
 
 ### Executar el Playbook
 
