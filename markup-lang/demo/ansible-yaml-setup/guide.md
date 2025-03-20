@@ -35,9 +35,8 @@ nano inventory.ini
 ```
 
 2. Afegeix la configuració perquè Ansible pugui gestionar el servidor local (127.0.0.1).
-    ```bash
+```bash
 [webservers]
-
 127.0.0.1 ansible_user=root ansible_ssh_pass=<PASSWORD> ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 ```
 
