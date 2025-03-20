@@ -47,10 +47,15 @@ sudo passwd root
 
 ### Comprovar la connexió amb Ansible
 
-1. Executa ansible -i inventory.ini webservers -m ping.
+1. Executa ansible
+
+```bash
+-i inventory.ini webservers -m ping.
+```
+
 ![Ansible Ping](./img/Pasted image 20250320200635.png)
 
-2. Si apareixen errors, soluciona'ls seguint les instruccions.
+4. Si apareixen errors, soluciona'ls seguint les instruccions.
 
 ##### ⚠ Possible error: ssh: connect to host 127.0.0.1 port 22: Connection refused
 
