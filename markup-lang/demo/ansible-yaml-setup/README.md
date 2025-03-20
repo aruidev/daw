@@ -156,6 +156,7 @@ ansible-playbook -i inventory.ini apache_deploy.yaml
 ```
 
 2. Observa com Ansible executa cada tasca.
+
 ![Ansible Playbook Execution](./img/Pasted%20image%2020250320205656.png)
 
 ### Comprovar el desplegament d'Apache
@@ -167,6 +168,7 @@ systemctl status apache2
 ![Apache Status](./img/Pasted%20image%2020250320205934.png)
 
 2. Accedeix a http://127.0.0.1 des del navegador i comprova que es mostra la pàgina creada.
+
 ![Apache Web Page](./img/Pasted%20image%2020250320205741.png)
 
 ### Llegeix l'arxiu utilitzant Python
