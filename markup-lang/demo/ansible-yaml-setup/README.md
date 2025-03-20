@@ -25,7 +25,7 @@ sudo apt install -y python3 python3-pip ansible
 ansible --version
 ```
 
-![Ansible Version](./img/Pasted image 20250320205142.png)
+![Ansible Version](./img/Pasted%20image%2020250320205142.png)
 
 ### Configurar l'inventari d'Ansible (inventory.ini)
 
@@ -48,12 +48,11 @@ sudo passwd root
 ### Comprovar la connexió amb Ansible
 
 1. Executa ansible
-
 ```bash
--i inventory.ini webservers -m ping.
+ansible -i inventory.ini webservers -m ping
 ```
 
-![Ansible Ping](./img/Pasted image 20250320200635.png)
+![Ansible Ping](./img/Pasted%20image%2020250320200635.png)
 
 4. Si apareixen errors, soluciona'ls seguint les instruccions.
 
@@ -153,7 +152,7 @@ ansible-playbook -i inventory.ini apache_deploy.yaml
 ```
 
 2. Observa com Ansible executa cada tasca.
-![Ansible Playbook Execution](./img/Pasted image 20250320205656.png)
+![Ansible Playbook Execution](./img/Pasted%20image%2020250320205656.png)
 
 ### Comprovar el desplegament d'Apache
 
@@ -161,10 +160,10 @@ ansible-playbook -i inventory.ini apache_deploy.yaml
 ```bash
 systemctl status apache2
 ```
-![Apache Status](./img/Pasted image 20250320205934.png)
+![Apache Status](./img/Pasted%20image%2020250320205934.png)
 
 2. Accedeix a http://127.0.0.1 des del navegador i comprova que es mostra la pàgina creada.
-![Apache Web Page](./img/Pasted image 20250320205741.png)
+![Apache Web Page](./img/Pasted%20image%2020250320205741.png)
 
 ### Llegeix l'arxiu utilitzant Python
 
@@ -193,4 +192,4 @@ for task in data[0]['tasks']:
 python3 read_yaml.py
 ```
 
-![Python YAML Result](./img/Pasted image 20250320210851.png)
+![Python YAML Result](./img/Pasted%20image%2020250320210851.png)
