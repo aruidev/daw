@@ -12,8 +12,7 @@ This directory contains database-related projects, including design documentatio
 #### SQL Databases
   - MySQL
   - Database normalization
-  - Query optimization
-  - Stored procedures
+  - Query writing
   - Triggers
 
 
