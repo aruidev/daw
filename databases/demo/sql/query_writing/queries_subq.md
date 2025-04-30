@@ -1,5 +1,3 @@
-https://www.sapalomera.cat/moodlecf/pluginfile.php/43857/mod_resource/content/0/M02UF2E3-DML-Exercicis4-ConjuntsSubconsultes.pdf
-
 Exercici 1 - Obtenir el id_empleat, nom i salari dels empleats que tenen el mateix
 salari que l'empleat ‘Pat Fay’
 ```mysql
