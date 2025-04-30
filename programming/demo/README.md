@@ -1,5 +1,5 @@
 ### Programming
-This directory contains projects and exercises focused on programming fundamentals and advanced concepts.
+This directory contains projects and exercises focused on programming fundamentals and concepts.
 
 ### Content:
 
