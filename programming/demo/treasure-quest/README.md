@@ -18,8 +18,3 @@ Implemented using MVC (Model-View-Controller) pattern.
 
 #### Documentation 📖
 Full Java documentation is available for the project, covering class and methods specifications.
-
-#### Contact & Feedback
-If you have any questions, feedback, or suggestions, feel free to reach out to me:
-- **Email**: arucadev@gmail.com
-- **Website**: https://aruca.dev/
